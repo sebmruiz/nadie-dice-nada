@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --fondo: #f08080;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+.header {
+  background: var(--fondo);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header .navbar a{
+  margin: 0 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+.header .logo img{
+    height: 6.5rem;
+}
+
+/* --------home section--------*/
+
+.home{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(/img/Fondo.jpg);
+}
+.home .content{
+    margin: auto;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.home .content .portada-podcast{
+    float: left;
+    width: 40%;
+    
+}
+.home .content .portada-podcast img{
+    width: 100%;
+    box-shadow: 0px 0px 80px var(--fondo);
+}
+.home .content .description{
+    float: right;
+    width: 50%
+}
+.home .content .description h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 6rem;
+}
+.home .content .description h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 4rem;
+    
+}
